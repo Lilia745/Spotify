@@ -10,21 +10,21 @@ const list = [
 function List() {
   return (
     <div className="mt-[25px]">
-        <span className="text-[19px] font-medium">FAV</span>
+        <span className="md:text-[19px] font-medium">FAV</span>
         <ul className="mt-[20px]">
             {
                 list.map((list)=>{
                     return(
-                        <li key={list.id} className=" font-bold hover:bg-[#747474b5] p-[5px] rounded-[5px] cursor-pointer">{list.name}</li>
+                        <li key={list.id} className="md:text-[16px] text-[13px] font-bold hover:bg-[#747474b5] p-[5px] rounded-[5px] cursor-pointer">{list.name}</li>
                     )
                 })
             }
         </ul>
         <div className="flex items-center mt-[15px] hover:bg-[#747474b5] p-[5px] rounded-[5px] cursor-pointer">
-        <div className="text-[30px] mr-[10px]">
+        <div className="md:text-[30px] mr-[10px]">
         <HiOutlineArrowDownCircle />
         </div>
-        <span className="text-[20px]">Install App</span>
+        <span className="md:text-[20px]">Install App</span>
         </div>
     </div>
   )
