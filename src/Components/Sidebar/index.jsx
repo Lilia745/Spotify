@@ -36,12 +36,14 @@ function Sidebar() {
           </div>
           <span className="md:text-[19px]">Create Playlist</span>
         </div>
-        <Link to="/liked" className="flex  items-center">
-          <div className="bacground">
+        <div className="flex items-center">
+        <div className="bacground">
           <FcLikePlaceholder />
           </div>
+          <a href="https://open.spotify.com/collection/tracks">
           <span className="md:text-[19px]">Liked Songs</span>
-        </Link>
+          </a>
+        </div>
         <div className="flex items-center mt-[20px]">
           <div className="bg-[#004638] p-[10px] rounded-[5px] mr-[10px]">
           <FaAudible />

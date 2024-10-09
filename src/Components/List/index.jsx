@@ -10,7 +10,7 @@ const list = [
 function List() {
   return (
     <div className="mt-[25px]">
-        <span className="md:text-[19px] font-medium">FAV</span>
+        <span className="md:text-[19px] font-medium text">FAV</span>
         <ul className="mt-[20px]">
             {
                 list.map((list)=>{
