@@ -9,7 +9,7 @@ import List from "../List";
 
 function Sidebar() {
   return (
-    <div className="bg-[black] text-[white] md:w-[300px] w-[250px] p-[20px] fixed h-[100%]">
+    <div className="bg-[black] text-[white] md:w-[300px] w-[250px] p-[20px] fixed ">
       <Link to="/">
         <img
           src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Full_Logo_RGB_White.png"
