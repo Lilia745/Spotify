@@ -9,7 +9,7 @@ function Home() {
     <div className="flex">
       <Sidebar />
       <div className="bgColor w-full md:ml-[300px] ml-[250px]">
-        <div className=" flex items-center p-[30px] gap-[70px]">
+        <div className=" flex items-center p-[49px] gap-[70px]">
           <div className="flex items-center  w-[200px] p-[15px] rounded-[5px] hover:bg-[#80808050] shadow">
             <div className="bacground">
               <FcLikePlaceholder />
